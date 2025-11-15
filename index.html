@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!-- mobile menu -->
+    <div class="mobile-menu-container" id="mobile-menu-container">
+      <div class="mobile-menu-close-icon" id="close-mobile-menu-btn">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-x"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"
+          />
+        </svg>
+      </div>
+      <div class="mobile-logo-container">
+        <img src="images/logo-mobile.svg" alt="" />
+      </div>
+      <div class="menu-drop-down-collapse-container">
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed no-arrow"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                الرئيسة
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                خدماتنا<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <ul class="navigation-menu">
+                  <li>
+                    <a href="#cleaning-services">خدمات التنظيف الشاملة</a>
+                  </li>
+                  <li>
+                    <a href="#steam-cleaning">خدمات تنظيف بالبخار</a>
+                  </li>
+                  <li>
+                    <a href="#pest-control">مكافحة ورش الحشرات</a>
+                  </li>
+                  <li>
+                    <a href="#furniture-moving">نقل وتخزين العفش</a>
+                  </li>
+                  <li>
+                    <a href="#home-maintenance">اعمال الصيانة المنزلية</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed no-arrow"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                من نحن
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                المدونة<svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="bi bi-chevron-down"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                  />
+                </svg>
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionFlushExample"
+            >
+              <div class="accordion-body">
+                <ul class="navigation-menu">
+                  <li>
+                    <a href="#cleaning-services">خدمات تنظيف منازل</a>
+                  </li>
+                  <li>
+                    <a href="#steam-cleaning">خدمات نقل العفش</a>
+                  </li>
+                  <li>
+                    <a href="#pest-control">مكافحة مكافحة الحشرات</a>
+                  </li>
+                  <li>
+                    <a href="#furniture-moving">خدمات الصيانة المنزلية</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed no-arrow"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                اتصل بنا
+              </button>
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div class="social-media-icons-container d-flex align-items-center">
+        <div class="facebook-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-facebook"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"
+            />
+          </svg>
+        </div>
+        <div class="twitter-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-twitter-x"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"
+            />
+          </svg>
+        </div>
+        <div class="instagram-icon">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-instagram"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- content container -->
+    <div
+      class="container-fluid content-container overflow-x-hidden"
+      id="content-container"
+    >
+      <!-- navbar -->
+      <div
+        class="navbar-container row align-items-center justify-content-evenly none"
+        id="navbar-container "
+      >
+        <!-- navbar logo -->
+        <div class="logo-container col-xl-3 col-6 p-0">
+          <img src="images/svg_code_to_svg.svg" alt="" />
+        </div>
+        <!-- navbar menu -->
+        <div class="navbar-menu-container col-6 d-none d-xl-block">
+          <ul class="nav align-items-center">
+            <li class="nav-item active">
+              <a href="#" class="nav-link">الرئيسية</a>
+            </li>
+            <div class="drop-down-menu-li">
+              <li class="nav-item drop-down-li">
+                <a href="#" class="nav-link"
+                  >خدماتنا
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></a>
+              </li>
+              <li class="drop-down-menu-container">
+                <a href="#">خدمات التنظيف الشاملة</a>
+                <a href="#">خدمات التنظيف بالبخار</a>
+                <a href="#">مكافحة ورش الحشرات</a>
+                <a href="#">نقل وتخزين العفش</a>
+                <a href="#" class="border-0">اعمال الصيانة المنزلية</a>
+              </li>
+            </div>
+            <li class="nav-item"><a href="#" class="nav-link">من نحن</a></li>
+            <div class="drop-down-menu-li">
+              <li class="nav-item drop-down-li">
+                <a href="#" class="nav-link"
+                  >المدونة
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-down"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
+                    /></svg
+                ></a>
+              </li>
+              <div class="drop-down-menu-container">
+                <a href="#">خدمات تنظيف منازل</a>
+                <a href="#">خدمات نقل العفش</a>
+                <a href="#">مكافحة مكافحة الحشرات</a>
+                <a href="#" class="border-0">خدمات الصيانة المنزلية</a>
+              </div>
+            </div>
+            <li class="nav-item"><a href="#" class="nav-link">اتصل بنا</a></li>
+          </ul>
+        </div>
+        <!-- navbar search -->
+        <div class="search-container col-3 d-none d-xl-flex">
+          <input type="text" placeholder="ابحث عن خدمتك" />
+          <div class="icon-search-container">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-search"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+              />
+            </svg>
+          </div>
+        </div>
+        <div
+          class="mobile-menu-icon-container col-3 d-xl-none d-block"
+          id="open-mobile-menu-btn"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"
+            />
+          </svg>
+        </div>
+      </div>
+      <!-- main section -->
+      <div class="main-section row mb-xl-3 none" id="main-section">
+        <!-- image of main section -->
+        <div class="img-container col-12 p-0">
+          <img src="images/main-img.webp" class="" alt="" />
+        </div>
+        <!-- main text and buttons container -->
+        <div class="main-section-text-btns-container col-12 col-xl-6">
+          <div class="main-section-text">
+            <h1 class="main-section-title">ماستر كلين للخدمات المنزلية</h1>
+            <p class="main-section-subTitle">
+              اهتم براحتك وخل فريق
+              <span style="color: #fcb424">ماستر كلين</span> يعتنى بكل تفاصيل
+              تنظيف منزلك بأعلى معايير الجودة
+            </p>
+          </div>
+          <div
+            class="main-section-btns-container d-flex align-items-center justify-content-around text-center mt-5"
+          >
+            <a href="#" class="call-now btn rounded-4">
+              اتصل الآن
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-telephone-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"
+                /></svg
+            ></a>
+            <a href="#" class="whatsApp btn rounded-4">
+              واتساب
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-whatsapp"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+                /></svg
+            ></a>
+          </div>
+        </div>
+        <!-- احصل على سعر مجانى  -->
+        <div
+          class="free-price-section-container row m-0 col-11 d-flex flex-column align-items-center justify-content-center text-center"
+        >
+          <!-- title -->
+          <h3 class="free-price-section-title col-xl-12 col-8 mb-4">
+            أحصل على عرض سعر مجانى
+          </h3>
+          <!-- inputs -->
+          <div class="free-price-inputs-container row col-12">
+            <form class="row" action="">
+              <!-- user name -->
+              <input
+                class="usrename col-xl-2 col-10"
+                type="text"
+                name="user"
+                id="user"
+                placeholder="اكتب اسمك*"
+                required
+              />
+              <!-- phone -->
+              <input
+                class="phone col-xl-2 col-10"
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="ادخل رقم الهاتف"
+                required
+              />
+              <!-- city -->
+              <select
+                id="city"
+                name="city"
+                required
+                class="city col-xl-2 col-10"
+              >
+                <option value="" disabled selected>اختر المدينة</option>
+                <option value="جدة">جدة</option>
+                <option value="مكة">مكة</option>
+                <option value="الدمام">الدمام</option>
+                <option value="الرياض">الرياض</option>
+                <option value="الباحة">الباحة</option>
+                <option value="القطيف">القطيف</option>
+                <option value="الطائف">الطائف</option>
+              </select>
+              <!-- service -->
+              <select
+                id="service"
+                name="service"
+                required
+                class="service col-xl-2 col-10"
+              >
+                <option value="" disabled selected>اختر الخدمة*</option>
+                <option value="تنظيف المنزل">تنظيف المنزل</option>
+                <option value="تنظيف المكتب">تنظيف المكتب</option>
+                <option value="تنظيف حمامات السباحه">
+                  تنظيف حمامات السباحه
+                </option>
+                <option value="تنظيف النوافذ">تنظيف النوافذ</option>
+                <option value="تنظيف سجاد">تنظيف سجاد</option>
+                <option value="تنظيف سطح المنزل">تنظيف سطح المنزل</option>
+                <option value="تنظيف كنب">تنظيف كنب</option>
+                <option value="تنظيف بالبخار">تنظيف بالبخار</option>
+                <option value="تنظيف خزانات">تنظيف خزانات</option>
+                <option value="تنظيف الحمام">تنظيف الحمام</option>
+                <option value="تنظيف المطبخ">تنظيف المطبخ</option>
+              </select>
+              <input
+                type="submit"
+                class="col-xl-auto col-10 submit"
+                value="اطلب الان"
+              />
+            </form>
+          </div>
+        </div>
+        <!-- الارقام -->
+        <div
+          class="numbers-container row col-12 d-flex align-items-end justify-content-around"
+        >
+          <div class="number col-6 col-xl-3">
+            <p class="mb-0">72,000+</p>
+            <p class="number-title">عميل راض</p>
+          </div>
+          <div class="number col-6 col-xl-3">
+            <p class="mb-0">*4.9/5</p>
+            <p class="number-title">تقييم من جوجل</p>
+          </div>
+          <div class="number col-6 col-xl-3">
+            <p class="mb-0">5000+</p>
+            <p class="number-title">مراجعة عميل</p>
+          </div>
+          <div class="number col-6 col-xl-3">
+            <p class="mb-0">10 اعوام</p>
+            <p class="number-title">من الخبرة</p>
+          </div>
+        </div>
+      </div>
+      <!-- container main content and add padding -->
+      <div class="container-xxl">
+        <!-- اكتشف ماستر كلين -->
+        <div class="explore-section-container row mb-3 p-2 p-xl-5">
+          <h2 class="title-of-content-section mb-xl-1 col-12">
+            اكتشف ماستر كلين®️!
+          </h2>
+          <p class="info-of-content-section col-12">
+            <strong>ماستر كلين للخدمات المنزلية</strong>&nbsp;هي مؤسسة سعودية
+            رسمية متخصصة في تقديم خدمات التنظيف ومكافحة الحشرات ونقل العفش
+            والصيانة وغيرها من الخدمات الاخري،&nbsp;<strong
+              >بخبرة تتجاوز 10 سنوات</strong
+            >. نحن نتميز بهويتنا الوطنية والتزامنا بأعلى معايير الجودة العالمية،
+            حيث نعمل على تلبية احتياجات عملائنا باستخدام أحدث التقنيات وفرق عمل
+            مدربة بعناية. رؤيتنا هي توفير خدمات شاملة تضمن بيئة نظيفة ومريحة
+            تعكس الثقة والاحترافية التي نعتز بها.
+          </p>
+        </div>
+        <!-- تنظيف المنازل swiper -->
+        <div class="swiper-container pt-0 row">
+          <h1 class="title-of-content-section">خدمات تنظيف المنازل</h1>
+          <p class="info-of-content-section">
+            استمتع بمنزل نظيف وصحي مع ماستر كلين، وتخلص من الأتربة والبكتيريا
+            التي تهدد راحتك وجودة هواء منزلك!
+          </p>
+          <div class="swiper cleaning-service-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف الحمام.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف الحمام</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف الستائر.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف الستائر</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف السجاد.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف السجاد</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف الكنب.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف الكنب</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف المراتب.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف المراتب</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف المطبخ.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف المطبخ</div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- مكافحة الحشرات swiper -->
+        <div class="swiper-container row">
+          <h1 class="title-of-content-section">خدمات مكافحة الحشرات</h1>
+          <p class="info-of-content-section">
+            تخلص من الحشرات المزعجة واحمِ منزلك مع خدمات مكافحة الحشرات
+            المتكاملة من ماستر كلين!
+          </p>
+          <div class="swiper cleaning-service-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/رش الحشرات.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">رش الحشرات</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img
+                    src="images/مكافحة الحشرات الطائرة.webp"
+                    class=""
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-card-title-container">
+                  مكافحةالحشرات الطائرة
+                </div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/مكافحة الصراصير.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">مكافحة الصراصير</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/مكافحة القوارض.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">مكافحة القواررض</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/مكافحة النمل.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">مكافحة النمل</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/مكافحة بق الفراش.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">مكافحة بق الفراش</div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- الصيانة المنزلية swiper -->
+        <div class="swiper-container row">
+          <h1 class="title-of-content-section">خدمات الصيانة المنزلية</h1>
+          <p class="info-of-content-section">
+            لا مزيد من الأعطال المزعجة، خدمات ماستر كلين تحل مشاكلك فورًا!
+          </p>
+          <div class="swiper cleaning-service-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/sebaka.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">اعمال السباكة</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/اعمال الكهرباء.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">اعمال الكهرباء</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/اعمال النجارة.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">اعمال النجارة</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img
+                    src="images/تركيب البلاط والسيراميك.webp"
+                    class=""
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-card-title-container">
+                  تركيب البلاط و السيراميك
+                </div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تركيب الزجاج.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تركيب الزجاج</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img
+                    src="images/تركيب النوافذ والابواب.webp"
+                    class=""
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-card-title-container">
+                  تركيب النوافذ والابواب
+                </div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img
+                    src="images/صيانة الاجهزة المنزلية.webp"
+                    class=""
+                    alt=""
+                  />
+                </div>
+                <div class="swiper-card-title-container">
+                  صيانة الاجهزةالمنزلية
+                </div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/صيانة المكيفات.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">صيانة المكيفات</div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- خدمات نقل العفش swiper -->
+        <div class="swiper-container row">
+          <h1 class="title-of-content-section">خدمات نقل العفش</h1>
+          <p class="info-of-content-section">
+            اجعل عملية نقل العفش سهلة وآمنة مع فريق ماستر كلين المتخصص في تقديم
+            خدمات نقل احترافية!
+          </p>
+          <div class="swiper cleaning-service-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تخزين العفش.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تخزين العفش</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تغليف الاثاث.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تغليف الاثاث</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/تنظيف العفش.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">تنظيف العفش</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/نقل العفش.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">نقل العفش</div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/خدمات النقل الدولى.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">
+                  خدمات النقل الدولى
+                </div>
+              </div>
+              <div class="swiper-card-container swiper-slide">
+                <div class="img-swiper-card-container">
+                  <img src="images/فك وتركيب الاثاث.webp" class="" alt="" />
+                </div>
+                <div class="swiper-card-title-container">فك وتركيب الاثاث</div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+        <!-- خدمات منزلية متميزة section -->
+        <div class="high-quality-section-conatiner pb-2 p-2 p-xl-5">
+          <h2 style="color: #fcb424" class="title-of-content-section">
+            خدمات منزلية متميزة بجودة عالية
+          </h2>
+          <p class="info-of-content-section">
+            شركة ماستر كلين للخدمات المنزلية تقدم مجموعة شاملة من الخدمات التي
+            تلبي احتياجات المنازل والمكاتب على حد سواء. نحن متخصصون في خدمات
+            التنظيف الشاملة باستخدام أفضل المعدات والمواد التي تضمن لك بيئة
+            نظيفة وصحية. بالإضافة إلى ذلك، نقدم خدمات مكافحة الحشرات بكفاءة
+            عالية باستخدام تقنيات حديثة وآمنة للحفاظ على بيئة منزلك خالية من
+            الآفات. كما نقدم خدمة نقل العفش بعناية لضمان عدم تلف الأثاث أثناء
+            عملية النقل، سواء كان داخل المدينة أو خارجها. ولا ننسى خدمة الصيانة
+            المتكاملة التي تشمل إصلاح الأجهزة الكهربائية والصحية لتلبية جميع
+            احتياجات منزلك. نحن في شركة ماستر كلين نسعى لتقديم أفضل الخدمات
+            بأعلى معايير الجودة لراحتك وسلامتك.
+          </p>
+        </div>
+        <!-- افضل حلول التنظيف section -->
+        <div class="best-solutions-section-container row mb-4 p-2 p-xl-5">
+          <div class="best-solutions-section-text col-xl-6 col-12 mb-5 m-xl-0">
+            <h2 style="color: #fcb424" class="title-of-content-section">
+              نقدم لكم أفضل حلول التنظيف
+            </h2>
+            <p class="info-of-content-section">
+              شركة ماستر كلين هي شركة متخصصة في تقديم خدمات التنظيف الشاملة
+              للمنازل والمكاتب والمؤسسات. نتميز بخبرة واسعة في هذا المجال،
+              ونستخدم أحدث المعدات والتقنيات لضمان تنظيف عميق وصحي.
+            </p>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+                >تنظيف السجاد والموكيت
+              </li>
+              <li class="list-group-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+                >تنظيف الأثاث والمكاتب
+              </li>
+              <li class="list-group-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+                >تنظيف الحمامات والمطابخ
+              </li>
+              <li class="list-group-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+                >تنظيف وتلميع الأرضيات
+              </li>
+              <li class="list-group-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+                >تنظيف المؤسسات والشركات
+              </li>
+              <li class="list-group-item">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  fill="currentColor"
+                  class="bi bi-check-circle"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"
+                  />
+                  <path
+                    d="m10.97 4.97-.02.022-3.473 4.425-2.093-2.094a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05"
+                  /></svg
+                >تنظيف المنازل والشقق
+              </li>
+            </ul>
+          </div>
+          <div class="best-solutions-section-img-container col-xl-6 col-12">
+            <img src="images/افضل-الخدمات-من-ماستر-كلين.webp" class="" alt="" />
+          </div>
+        </div>
+        <!-- two buttons section -->
+        <div
+          class="two-btns-container d-flex flex-column flex-xl-row align-items-center justify-content-center mb-4"
+        >
+          <a href="#" class="watch-serv-btn">شاهد جميع الخدمات</a>
+          <a href="#" class="call-us-btn">اتصل بنا</a>
+        </div>
+        <!-- ما يميز section -->
+        <div class="yomaiaz-section-container row mb-xl-4 p-2 p-xl-5">
+          <div class="yomaiaz-section-img-container col-xl-6 col-12">
+            <img src="images/مميزات ماستر كلين.webp" class="" alt="" />
+          </div>
+          <div class="yomaiaz-section-text-container col-xl-6 col-12">
+            <h2 style="color: #fcb424" class="title-of-content-section">
+              مايميز شركة ماستر كلين
+            </h2>
+            <ul class="">
+              <li class="">
+                <strong
+                  >نقدم حلول تنظيف شاملة تلبي احتياجات جميع عملائنا.</strong
+                >
+              </li>
+              <li class="">
+                <strong
+                  >نستخدم أحدث المعدات والتقنيات لضمان تنظيف عميق وصحي.</strong
+                >
+              </li>
+              <li class="">
+                <strong
+                  >نقدم خدماتنا بأسعار تنافسية تتناسب مع جميع
+                  الميزانيات.</strong
+                >
+              </li>
+              <li class="">
+                <strong>نلتزم بالمواعيد المحددة مع عملائنا.</strong>
+              </li>
+              <li class=""><strong>نقدم خدماتنا بضمان الجودة.</strong></li>
+            </ul>
+            <a href="#" class="">اتصل الان</a>
+          </div>
+        </div>
+        <!-- الاماكن التى تشملها section -->
+        <div class="places-section-container row p-xl-5 p-2 mb-4">
+          <h2 class="title-places-section mb-3 col-12">
+            المناطق التي تشملها خدماتنا
+          </h2>
+          <p class="info-places-section col-12 mb-4">
+            افضل الخدمات المنزلية في كل انحاء المملكة، نصلك في اي وقت واي مكان
+            بافضل المعدات وفريق العمل مدرب علي خدمتكم دائما في اي وقت وتحت اي
+            ظروف.
+          </p>
+          <div class="places-section-cities-container row col-12">
+            <div class="palces-section-city col-2">
+              <div class="places-section-city-icon">
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+              <p>جدة</p>
+            </div>
+            <div class="palces-section-city col-2">
+              <div class="places-section-city-icon">
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+              <p>مكة</p>
+            </div>
+            <div class="palces-section-city col-2">
+              <div class="places-section-city-icon">
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+              <p>الدمام</p>
+            </div>
+            <div class="palces-section-city col-2">
+              <div class="places-section-city-icon">
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+              <p>الخبر</p>
+            </div>
+            <div class="palces-section-city col-2 d-none d-xl-flex">
+              <div class="places-section-city-icon">
+                <img src="images/location-icon.svg" alt="" />
+              </div>
+              <p>الرياض</p>
+            </div>
+          </div>
+        </div>
+        <!-- راحة البال section -->
+        <div class="rest-section-container p-2 p-xl-5 mb-4 row">
+          <div class="rest-section-text-container col-xl-6 col-12">
+            <h3 style="color: #fcb424" class="rest-section-title">
+              ماستر كلين تضمن لك راحة البال
+            </h3>
+            <p class="rest-section-subTitle mt-4">
+              يمكنك التأكد من حصولك على راحة البال :
+            </p>
+            <ul class="rest-section-list-container">
+              <li>
+                <strong>الخبرة الواسعة:</strong> تتمتع شركة ماستر كلين بخبرة
+                واسعة في مجال التنظيف، مما يضمن لك الحصول على خدمات عالية
+                الجودة.
+              </li>
+              <li>
+                <strong>طاقم عمل ذي خبرة وكفاءة:</strong> &nbsp;يتمتع طاقم عمل
+                ماستر كلين بخبرة عالية وكفاءة في مجال التنظيف، مما يضمن لك
+                الحصول على نتائج ممتازة.
+              </li>
+              <li>
+                <strong>استخدام أحدث المعدات والتقنيات:</strong>&nbsp;تستخدم
+                ماستر كلين أحدث المعدات والتقنيات في مجال التنظيف، مما يضمن لك
+                الحصول على تنظيف عميق وصحي.
+              </li>
+              <li>
+                <strong>الالتزام بالمواعيد:</strong>&nbsp;تلتزم ماستر كلين
+                بالمواعيد المحددة مع عملائها، مما يضمن لك الحصول على الخدمة في
+                الوقت المحدد.
+              </li>
+              <li>
+                <strong>الأسعار التنافسية:</strong>&nbsp;تقدم ماستر كلين أسعارًا
+                تنافسية تتناسب مع جميع الميزانيات.
+              </li>
+              <li>
+                <strong>الضمان:</strong>&nbsp;تقدم ماستر كلين ضمانًا على جميع
+                خدماتها، مما يضمن لك الحصول على أفضل النتائج.
+              </li>
+            </ul>
+          </div>
+          <div class="rest-section-img-container col-xl-6 col-12">
+            <img src="images/راحة البال.webp" alt="" />
+          </div>
+        </div>
+        <!-- كيف نعمل section -->
+        <div class="how-we-works-section-container row">
+          <div class="how-we-work-text-container col-12 text-center">
+            <p class="fw-bold">كيف نعمل</p>
+            <h2 style="color: #fcb424" class="how-we-work-title col-12 fw-bold">
+              كيف تعمل خدمة التنظيف
+            </h2>
+          </div>
+          <div class="how-we-works-cards-container col-12 row p-0">
+            <div class="how-we-work-card col-xl-3 col-12">
+              <div class="how-we-work-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                  <path
+                    d="M45.52 5.01h-3.38c-.15 0-.3-.02-.48-.03 0-.54.02-1.04 0-1.54 0-.36-.06-.72-.15-1.08A3.342 3.342 0 0 0 38.4 0 3.327 3.327 0 0 0 35 3.25c-.01.58 0 1.16 0 1.74h-6.67V3.24A3.339 3.339 0 0 0 24.9 0a3.339 3.339 0 0 0-3.24 3.43v1.54H15v-1.6C15 1.53 13.51.03 11.67.03S8.33 1.52 8.33 3.36v1.65H4.49C1.75 5.01 0 6.74 0 9.48v32.7c0 2.75 1.74 4.48 4.49 4.48h22.6c.84 0 1.24-.28 1.23-.84 0-.57-.4-.82-1.26-.82H4.42c-1.72 0-2.75-1.03-2.75-2.75V16.72h46.66v13.94c0 .62.31.99.81 1.01.52.02.85-.37.86-1.02V9.46c0-2.71-1.75-4.45-4.47-4.45Zm-8.86-1.58v-.18a1.667 1.667 0 1 1 3.33.19c.01 1.61.01 3.23 0 4.84v.13c-.04.92-.81 1.63-1.73 1.59-.92-.04-1.63-.81-1.59-1.73V3.43ZM25.07 1.68c.92.04 1.63.82 1.59 1.74v5.02c-.05.92-.84 1.62-1.76 1.56-.92-.05-1.62-.84-1.56-1.76V3.28c.04-.92.82-1.63 1.74-1.59ZM10.01 3.42v-.1a1.665 1.665 0 1 1 3.33.11v2.45c0 .8.01 1.6 0 2.39v.13a1.666 1.666 0 1 1-3.33-.15V3.41Zm38.31 11.55H1.68c0-2.01-.03-3.99.01-5.97.04-1.22 1-2.22 2.23-2.3 1.45-.06 2.91-.02 4.42-.02v1.74c.04 1.84 1.57 3.3 3.41 3.26 1.84-.04 3.3-1.57 3.26-3.41V6.7h6.66v1.78c.08 1.84 1.64 3.27 3.48 3.19s3.27-1.64 3.19-3.48V6.71h6.67V8.41a3.33 3.33 0 1 0 6.66-.1V6.68h1.14c1.02 0 2.05-.02 3.07 0 1.3 0 2.36 1.02 2.43 2.32.05 1.98.01 3.95.01 5.97Zm-9.03 13.37h-.11c-5.98-.01-10.84 4.82-10.86 10.8-.01 5.98 4.82 10.84 10.8 10.86 5.98.01 10.84-4.82 10.86-10.8 0-5.94-4.76-10.78-10.7-10.86Zm-.16 19.99c-5.06-.01-9.15-4.13-9.14-9.19.01-5.06 4.13-9.15 9.19-9.14 5.06.02 9.15 4.14 9.13 9.2-.02 5.06-4.13 9.14-9.19 9.13Zm-25.8-25.86c-.01-.9-.74-1.62-1.64-1.62-.55-.02-1.11 0-1.66 0s-1.15-.01-1.72 0c-.9 0-1.62.73-1.63 1.62-.02.87-.02 1.74 0 2.6.02.88.73 1.58 1.61 1.59 1.15.02 2.29.02 3.44 0 .88-.01 1.59-.72 1.61-1.59.02-.87.02-1.74 0-2.6Zm-1.69 2.5H8.36v-2.43h3.28v2.43Zm9.99-4.12c-1.09-.01-2.19-.01-3.28 0h-.08c-.91.02-1.63.77-1.61 1.68-.01.82-.01 1.63 0 2.45v.09c.03.92.8 1.64 1.72 1.61h1.56c.57 0 1.15.01 1.72 0h.01c.91 0 1.65-.74 1.64-1.66.02-.83.02-1.67 0-2.5v-.06c-.02-.91-.78-1.63-1.69-1.61Zm0 4.14h-3.27v-2.44h3.27v2.44Zm6.76 1.69H30c.54 0 1.08.01 1.61 0h.1c.92-.03 1.63-.8 1.6-1.71.01-.8.01-1.6 0-2.39v-.11c-.03-.91-.79-1.63-1.7-1.61-1.09-.01-2.19-.01-3.28 0h-.08c-.91.02-1.63.78-1.6 1.68-.01.82-.01 1.63 0 2.45v.1c.03.92.81 1.63 1.72 1.6Zm-.04-4.14h3.27v2.44h-3.27v-2.44ZM40 26.68c.56 0 1.11.01 1.67 0 .91 0 1.65-.75 1.64-1.66.02-.83.02-1.67 0-2.5v-.02c0-.91-.74-1.64-1.65-1.64-1.11-.02-2.22-.02-3.33 0h-.08c-.91.02-1.62.78-1.6 1.69-.01.82-.01 1.63 0 2.45v.05c.01.92.76 1.65 1.68 1.64.55.01 1.11 0 1.67 0Zm-1.64-4.13h3.27v2.44h-3.27v-2.44ZM8.35 34.18H11.69c.91-.01 1.64-.76 1.63-1.67.02-.83.02-1.67 0-2.5v-.02c0-.91-.75-1.64-1.66-1.63-1.11-.02-2.22-.02-3.33 0h-.07c-.91.03-1.62.79-1.59 1.7-.01.82-.01 1.63 0 2.45v.05c.01.92.77 1.65 1.68 1.63Zm0-4.14h3.28v2.44H8.35v-2.44Zm13.31-1.68c-1.11-.02-2.22-.02-3.33 0h-.08c-.91.02-1.62.78-1.6 1.69-.01.82-.01 1.63 0 2.45v.05c.01.92.76 1.65 1.68 1.64.55.01 1.11 0 1.67 0 .54 0 1.08.01 1.61 0h.06c.91 0 1.65-.75 1.65-1.67.02-.83.02-1.67 0-2.5V30c0-.91-.74-1.64-1.65-1.64Zm-.05 4.15h-3.25v-2.45h3.25v2.45Zm-9.9 9.17c.88-.02 1.58-.72 1.61-1.6.02-.87.02-1.74 0-2.6 0-.9-.74-1.62-1.64-1.62a95.21 95.21 0 0 0-3.38 0c-.9 0-1.63.72-1.63 1.62-.02.85-.02 1.7 0 2.55 0 .92.75 1.66 1.66 1.65.54.01 1.08 0 1.61 0 .59 0 1.18.02 1.77 0Zm-3.36-1.7v-2.42h3.29v2.42H8.35Zm8.32.07c.01.9.74 1.62 1.64 1.62 1.13.02 2.26.02 3.38 0 .9 0 1.62-.73 1.63-1.62.02-.85.02-1.7 0-2.55 0-.92-.75-1.66-1.66-1.65-.55-.01-1.11 0-1.66 0-.55 0-1.11-.01-1.66 0h-.02c-.91 0-1.64.74-1.64 1.65-.02.85-.02 1.7 0 2.55Zm1.7-2.5h3.27v2.43h-3.27v-2.43Zm8.3-7.63c.03-.86.73-1.54 1.59-1.56 1.11-.03 2.22-.02 3.33 0 .46-.03.86.31.89.77a.83.83 0 0 1-.77.89h-.15c-1.06.01-2.11 0-3.22 0v2.46c.1.04.2.07.29.11.4.14.62.57.49.97-.1.41-.49.68-.91.62-.83-.05-1.5-.72-1.54-1.56-.03-.9-.03-1.81 0-2.71Zm18.71 6.41c0 .12-.04.24-.1.34-.1.16-.22.31-.36.44-2.19 2.2-4.39 4.39-6.58 6.59-.66.66-1.01.66-1.66.02l-3.2-3.2a.843.843 0 0 1-.16-1.18c.28-.37.81-.44 1.18-.16.06.05.11.1.16.16.94.93 1.86 1.86 2.87 2.88.56-.58 1.07-1.13 1.6-1.65 1.55-1.56 3.1-3.12 4.68-4.66.23-.23.52-.37.84-.4.44.03.77.4.74.84Z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="how-we-work-card-title">اعداد خطة للتنظيف</h3>
+              <p class="how-we-work-card-subTitle">
+                قبل البدء بأي عمل تنظيف، تقوم ماستر كلين بإعداد خطة شاملة تضمن
+                حصولك على أفضل النتائج.
+              </p>
+            </div>
+            <div class="how-we-work-card col-xl-3 col-12">
+              <div class="how-we-work-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                  <path
+                    d="M39.41 45.89V3.86C39.35 1.5 37.83 0 35.47 0H14.52c-1.26-.06-2.47.51-3.22 1.52a4.08 4.08 0 0 0-.71 2.58v41.84c-.06 1.05.29 2.08.99 2.88.6.6 1.36 1.01 2.19 1.18h22.46c.83-.17 1.59-.58 2.19-1.18.7-.81 1.05-1.86.99-2.92ZM12.21 3c.19-.94.94-1.4 1.88-1.52.13-.01.26-.02.39-.01h21.04c1.27 0 2.25.71 2.36 1.81.08.83.02 1.68.02 2.57H12.01c0-.95.07-1.9.2-2.85Zm25.73 43.07c0 1.6-.89 2.46-2.49 2.46h-20.9c-1.6 0-2.48-.87-2.49-2.47v-4.64c0-.07.02-.15.03-.22h1.97c.58 0 .9-.28.9-.73s-.32-.73-.9-.73h-1.98V7.37H37.9v32.37H17.62c-.18 0-.36 0-.54.02-.31.05-.55.29-.6.6-.06.39.21.76.6.82.18.02.36.03.54.02H37.9c.01.18.03.32.03.46v4.39ZM25.05 42.7c-1.21-.03-2.21.93-2.23 2.14a2.19 2.19 0 0 0 2.12 2.23h.01c1.21.03 2.21-.93 2.23-2.13.03-1.21-.93-2.21-2.14-2.23ZM25 45.6a.726.726 0 1 1 .72-.76v.02c0 .4-.32.73-.72.73Zm3.64-41.98c.02.4-.28.75-.68.77h-.1c-.93.02-1.85.02-2.78 0a.72.72 0 0 1-.79-.64v-.09c0-.4.33-.73.74-.73h.07c.45-.01.91 0 1.36 0 .47 0 .94-.01 1.41 0 .4-.02.75.28.77.68Zm-5.83.05a.726.726 0 0 1-1.45-.01v-.03c.02-.39.34-.69.73-.7.4 0 .72.33.72.73Z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="how-we-work-card-title">اعداد خطة للتنظيف</h3>
+              <p class="how-we-work-card-subTitle">
+                قبل البدء بأي عمل تنظيف، تقوم ماستر كلين بإعداد خطة شاملة تضمن
+                حصولك على أفضل النتائج.
+              </p>
+            </div>
+            <div class="how-we-work-card col-xl-3 col-12">
+              <div class="how-we-work-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+                  <path
+                    d="M48.66 20.16c-2.34.01-4.69 0-7.03 0h-.54s-.05-.1-.06-.15v-1.56c0-1-.34-1.34-1.36-1.34H19.32c-.21 0-.42.02-.63.07-.37.1-.64.4-.69.78-.08.52.28 1 .8 1.08.21.02.42.03.63.03h19.62c.01.17.03.28.03.39 0 2.41.04 4.82-.02 7.22-.01 1.15-.13 2.3-.35 3.44-.96 5.09-4.04 9.53-8.47 12.23-.23.14-.5.22-.77.22-5.97.01-11.94.01-17.91 0-.27 0-.53-.08-.76-.23-5.75-3.75-8.69-9.06-8.82-15.92-.04-2.28 0-4.56 0-6.83v-.53h6.44c.51.06.98-.3 1.06-.81a.878.878 0 0 0-.52-1c-.22-.09-.47-.14-.71-.13H1.32c-.55-.07-1.08.25-1.28.76v10.06c.13.83.23 1.67.38 2.49.7 3.74 2.45 7.21 5.04 10.01.64.7 1.24 1.43 1.86 2.15H6.21c-1.59 0-3.19.02-4.78 0-.56-.07-1.11.2-1.38.69v1.07c.12.43.2.88.36 1.3a6.34 6.34 0 0 0 5.09 4.28c.08.02.15.05.22.09H37.7c.55-.13 1.09-.29 1.62-.48a6.307 6.307 0 0 0 4.03-5.67c.07-.88-.33-1.27-1.2-1.27h-8.67l-.11-.14c.11-.05.22-.12.32-.19 1.52-1.26 2.84-2.74 3.92-4.38.14-.24.4-.38.68-.35 1.23.03 2.47 0 3.7-.12 4.1-.58 7.32-3.79 7.92-7.88.03-.14.06-.28.11-.41v-8.2c-.23-.52-.78-.82-1.34-.74Zm-7.38 24.38a4.157 4.157 0 0 1-2.32 2.97c-.67.32-1.41.49-2.15.51-10.09.02-20.17.03-30.26.02-2.13.06-4-1.41-4.44-3.5h39.17Zm-.14-18.49h2.98c.04 1.78.3 3.6-1.39 4.89-.63.49-1.42.73-2.22.67l.63-5.57Zm6.91 2a7.37 7.37 0 0 1-5.83 7.32c-1.09.17-2.18.26-3.28.28.29-.7.49-1.25.75-1.77.13-.16.33-.25.53-.25 1.31.07 2.61-.32 3.66-1.11 1.38-1.01 2.2-2.6 2.21-4.31.03-.99.01-1.98 0-2.98 0-.79-.36-1.16-1.17-1.17-1.11-.01-2.21 0-3.32 0h-.56v-1.91h6.97c.01.13.03.25.03.38 0 1.84.01 3.67 0 5.51ZM19.75 6.43c-.9-1.1-1.47-2.3-1.28-3.76.14-1.07.47-2.05 1.46-2.67h.49c.81.5.91.94.4 1.76-.66.97-.56 2.25.22 3.12.66.74 1.14 1.63 1.41 2.58.39 1.61 0 3.3-1.04 4.59-.17.24-.36.46-.56.67-.34.33-.87.37-1.25.09a.938.938 0 0 1-.26-1.22c.13-.22.28-.44.45-.63 1.17-1.5 1.18-3.07-.02-4.54Zm4.22.01c-.34-1.31-.05-2.71.79-3.78.23-.22.5-.41.79-.55.58.06 1.01.57.96 1.15 0 .1-.03.19-.07.29-.06.12-.12.23-.19.34-.7.96-.64 2.28.16 3.16.64.72 1.11 1.57 1.4 2.49.46 1.68.05 3.48-1.09 4.8-.25.34-.59.62-.98.8-.32.03-.64-.07-.89-.29a.769.769 0 0 1-.17-.98c.11-.21.25-.42.41-.6 1.28-1.63 1.28-3.13 0-4.74-.52-.6-.91-1.32-1.12-2.09Zm-10.94-.68c-.1-1.13.24-2.26.94-3.15.25-.36.73-.5 1.14-.33.41.16.66.57.62 1.01-.08.2-.17.39-.27.57-.74 1-.65 2.39.22 3.28.83.93 1.35 2.09 1.49 3.33.11 1.68-.54 3.32-1.76 4.48-.39.36-.99.34-1.35-.05a.974.974 0 0 1-.15-1.09c.14-.24.3-.46.48-.67a3.345 3.345 0 0 0-.03-4.5 5.35 5.35 0 0 1-1.32-2.88Zm17.2 30.71c.05-.07.1-.13.17-.19.14-.18.3-.34.46-.51 1.68-1.88 2.81-4.18 3.26-6.65.13-.79.21-1.58.25-2.37.06-.71.43-1.16 1.01-1.14.6.01.97.49.95 1.23 0 .18-.02.36-.02.54-.21 3.82-1.78 7.44-4.43 10.2a.981.981 0 0 1-1.63-1.09Zm-2.43 3.98c-.53 0-.95-.44-.94-.96.02-.55.46-.98 1-.98.52.02.94.45.94.98 0 .54-.45.97-.99.97ZM13.01 18.13a.96.96 0 0 1 .93-.99h.03c.53 0 .96.42.98.95 0 .53-.42.97-.95.97a.96.96 0 0 1-.99-.93Zm.99.93Z"
+                  ></path>
+                </svg>
+              </div>
+              <h3 class="how-we-work-card-title">اعداد خطة للتنظيف</h3>
+              <p class="how-we-work-card-subTitle">
+                قبل البدء بأي عمل تنظيف، تقوم ماستر كلين بإعداد خطة شاملة تضمن
+                حصولك على أفضل النتائج.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- rating section -->
+        <div class="rating-section-container row mb-xl-4 mb-0 p-2 p-xl-5">
+          <div class="rating-section-title-container text-center col-12">
+            <p class="fw-bold">تعليقات العملاء</p>
+            <h2
+              style="color: #fcb424"
+              class="rating-section-title col-12 fw-bold"
+            >
+              ماذا يقول عنا عملائنا
+            </h2>
+          </div>
+          <div class="rating-section-swiper-container col-12">
+            <div class="swiper rating-swiper h-100">
+              <div class="swiper-wrapper">
+                <!-- card -->
+                <div class="rating-card swiper-slide">
+                  <div class="rating-card-text-comment-icon">
+                    <div class="rating-card-icon">
+                      <svg
+                        aria-hidden="true"
+                        class="e-font-icon-svg e-fas-quote-right"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p>
+                      شركة هي أفضل شركة تنظيف جربتها في حياتي. تنظيفهم عميق،
+                      وخدمتهم ممتازة، وأسعارهم مناسبة. أنا أشكرهم من كل قلبي،
+                      وأوصي بهم للجميع.
+                    </p>
+                  </div>
+                  <div class="rating-card-user">
+                    <p class="fw-bold">سلمان بن عبد الله</p>
+                    <span>جدة</span>
+                  </div>
+                </div>
+                <!-- card -->
+                <div class="rating-card swiper-slide">
+                  <div class="rating-card-text-comment-icon">
+                    <div class="rating-card-icon">
+                      <svg
+                        aria-hidden="true"
+                        class="e-font-icon-svg e-fas-quote-right"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p>
+                      والله شركة ما عليها كلام. تنظيفهم رهيب، وخدمتهم ممتازة،
+                      وأسعارهم مناسبة. أنا جربتهم مرة وحدة، وبعدها ما رحت
+                      لغيرهم. والله إنهم يستاهلون كل خير.
+                    </p>
+                  </div>
+                  <div class="rating-card-user">
+                    <p class="fw-bold">محمد بن سالم</p>
+                    <span>الرياض</span>
+                  </div>
+                </div>
+                <!-- card -->
+                <div class="rating-card swiper-slide">
+                  <div class="rating-card-text-comment-icon">
+                    <div class="rating-card-icon">
+                      <svg
+                        aria-hidden="true"
+                        class="e-font-icon-svg e-fas-quote-right"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p>
+                      شركة هي أفضل شركة تنظيف جربتها في حياتي. تنظيفهم عميق،
+                      وخدمتهم ممتازة، وأسعارهم مناسبة. أنا أشكرهم من كل قلبي،
+                      وأوصي بهم للجميع.
+                    </p>
+                  </div>
+                  <div class="rating-card-user">
+                    <p class="fw-bold">سعاد الراشدى</p>
+                    <span>الرياض</span>
+                  </div>
+                </div>
+                <!-- card -->
+                <div class="rating-card swiper-slide">
+                  <div class="rating-card-text-comment-icon">
+                    <div class="rating-card-icon">
+                      <svg
+                        aria-hidden="true"
+                        class="e-font-icon-svg e-fas-quote-right"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p>
+                      شركة هي أفضل شركة تنظيف جربتها في حياتي. تنظيفهم عميق،
+                      وخدمتهم ممتازة، وأسعارهم مناسبة. أنا أشكرهم من كل قلبي،
+                      وأوصي بهم للجميع.
+                    </p>
+                  </div>
+                  <div class="rating-card-user">
+                    <p class="fw-bold">سلمان بن عبد الله</p>
+                    <span>جدة</span>
+                  </div>
+                </div>
+                <!-- card -->
+                <div class="rating-card swiper-slide">
+                  <div class="rating-card-text-comment-icon">
+                    <div class="rating-card-icon">
+                      <svg
+                        aria-hidden="true"
+                        class="e-font-icon-svg e-fas-quote-right"
+                        viewBox="0 0 512 512"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M464 32H336c-26.5 0-48 21.5-48 48v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48zm-288 0H48C21.5 32 0 53.5 0 80v128c0 26.5 21.5 48 48 48h80v64c0 35.3-28.7 64-64 64h-8c-13.3 0-24 10.7-24 24v48c0 13.3 10.7 24 24 24h8c88.4 0 160-71.6 160-160V80c0-26.5-21.5-48-48-48z"
+                        ></path>
+                      </svg>
+                    </div>
+                    <p>
+                      والله شركة ما عليها كلام. تنظيفهم رهيب، وخدمتهم ممتازة،
+                      وأسعارهم مناسبة. أنا جربتهم مرة وحدة، وبعدها ما رحت
+                      لغيرهم. والله إنهم يستاهلون كل خير.
+                    </p>
+                  </div>
+                  <div class="rating-card-user">
+                    <p class="fw-bold">محمد بن سالم</p>
+                    <span>الرياض</span>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+        <!-- another services section -->
+        <div class="another-services-section-container row p-2 p-xl-5">
+          <h1 class="another-services-title text-black col-12">
+            اطلع على خدمات ماستر كلين الاخرى
+          </h1>
+          <!-- swiper -->
+          <div class="another-services-swiper-container mt-xl-5 mt-2 col-12">
+            <div class="swiper another-services-swiper h-100">
+              <div class="swiper-wrapper">
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/تنظيف-بالبخار.svg" alt="" />
+                  </div>
+                  <p>خدمات تنظيف بالبخار</p>
+                </div>
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/خدمات  الصيانة.svg" alt="" />
+                  </div>
+                  <p>خدمات الصيانة الصيانة</p>
+                </div>
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/خدمات تنظيف المكيفات.svg" alt="" />
+                  </div>
+                  <p>خدمات تنظيف المكيفات</p>
+                </div>
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon fill-icon">
+                    <img src="images/خدمات تنظيف المنازل.svg" alt="" />
+                  </div>
+                  <p>خدمات تنظيف المنازل</p>
+                </div>
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/خدمات عزل الاسطح.svg" alt="" />
+                  </div>
+                  <p>خدمات عزل الاسطح</p>
+                </div>
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/خدمات مكافخة الحشرات.svg" alt="" />
+                  </div>
+                  <p>خدمات مكافحة الحشرات/p></p>
+                </div>
+
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/خدمات-تنظيف-الخزانات.svg" alt="" />
+                  </div>
+                  <p>خدمات تنظيف الخزانات</p>
+                </div>
+                <!-- card -->
+                <div class="another-services-card swiper-slide">
+                  <div class="another-services-icon">
+                    <img src="images/نقل-العفش.svg" alt="" />
+                  </div>
+                  <p>خدمات نقل العفش</p>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- before footer section -->
+    <div class="before-footer-container m-0 none">
+      <div class="hero-badge col-xl-8 col-12">ماستر كلين للخدمات المنزلية</div>
+      <h1 class="hero-title col-xl-6 col-12">
+        هل تبحث عن خدمات منزلية احترافية؟
+      </h1>
+      <p class="hero-subtitle col-xl-6 col-12">
+        اجعل منزلك يعكس راحتك وسلامتك، اطلب خدمات ماستركلين اليوم
+      </p>
+      <!-- call buuton -->
+      <button class="cta-button">
+        احجز الآن
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-whatsapp"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"
+          />
+        </svg>
+      </button>
+    </div>
+    <!-- footer -->
+    <footer class="footer" id="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <!-- About Master Clean -->
+          <div class="footer-column">
+            <h3>عن ماستر كلين</h3>
+            <div class="about-text">
+              <p>
+                شركة <strong>ماستر كلين للخدمات المنزلية</strong> في السعودية
+                تقدم حلول متكاملة تشمل التنظيف العميق، مكافحة الحشرات، ونقل
+                العفش، والمزيد من خدماتنا الأخرى مع التزام بالجودة والاحترافية
+                لضمان راحة عملائنا
+              </p>
+            </div>
+          </div>
+
+          <!-- Our Services -->
+          <div class="footer-column">
+            <h3>خدماتنا</h3>
+            <ul>
+              <li><a href="#">خدمات تنظيف منازل</a></li>
+              <li><a href="#">خدمات مكافحة حشرات</a></li>
+              <li><a href="#">خدمات نقل العفش</a></li>
+              <li><a href="#">خدمات الصيانة المنزلية</a></li>
+            </ul>
+          </div>
+
+          <!-- Important Links -->
+          <div class="footer-column">
+            <h3>روابط هامة</h3>
+            <ul>
+              <li><a href="#">اتصل بنا</a></li>
+              <li><a href="#">المدونة</a></li>
+              <li><a href="#">تقييمات العملاء</a></li>
+              <li><a href="#">خريطة الموقع</a></li>
+              <li><a href="#">سياسة الخصوصية</a></li>
+              <li><a href="#">الأحكام والشروط</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="footer-column">
+            <h3>معلومات الاتصال</h3>
+            <div class="contact-info">
+              <p class="address"><strong>العنوان:</strong></p>
+              <p>ح الغضبانة، الغضبانة، جدة 23343</p>
+              <p><strong>ساعات العمل:</strong> مفتوح على مدار الساعة</p>
+              <p><strong>24/7</strong></p>
+              <p><strong>البريد الإلكتروني:</strong></p>
+              <p>info@masterclean.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>Copyright © 2025 - Designed by MMS</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
