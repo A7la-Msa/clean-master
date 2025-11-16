@@ -182,12 +182,14 @@ body {
   justify-content: center;
   list-style: none;
   height: 100%;
+   
   /* container */
   .drop-down-menu-li {
     height: 100%;
     position: relative;
     /* drop down menu */
     .drop-down-menu-container {
+      z-index: -1;
       transition: 0.3s ease;
       height: auto;
       opacity: 0;
@@ -200,7 +202,7 @@ body {
       flex-direction: column;
       align-items: start;
       justify-content: space-around;
-      pointer-events: none;/* hide interaction when not visible */
+      pointer-events: none;
       a {
         font-size: 0.7rem;
         font-weight: 500;
@@ -216,14 +218,15 @@ body {
       /* hover to visible menu */
     }
     li:hover ~ .drop-down-menu-container {
+      pointer-events: auto;
       opacity: 1;
       transition: 0.3s ease;
       top: 100%;
       height: auto;
     }
-    .drop-down-menu-container:hover {
+   .drop-down-menu-container:hover {
       pointer-events: auto;
-      opacity: 1;
+      opacity: 1 ;
       top: 100%;
       height: auto;
       overflow: auto;
@@ -844,24 +847,6 @@ body {
   background-color: #f5f5f5;
   padding: 60px 40px 30px;
   color: #333;
-}
-.footer::after {
-  content: "";
-  background-color: #f5f5f5;
-  width: 20px;
-  height: 100%;
-  top: 0;
-  right: -12px;
-  position: absolute;
-}
-.footer::before {
-  content: "";
-  background-color: #f5f5f5;
-  width: 20px;
-  height: 100%;
-  top: 0;
-  left: -12px;
-  position: absolute;
 }
 
 .footer-container {
